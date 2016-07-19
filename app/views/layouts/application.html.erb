@@ -8,7 +8,24 @@
 </head>
 <body>
 
-<%= yield %>
+<div class="container">
 
+  <nav class="navbar navbar-default">
+   <div class="container-fluid">
+     <div class="navbar-header">
+      <%= link_to root_url, class: "navbar-brand" do %>
+       <%= image_tag "logo.png" %>
+      <% end %>
+      <form class="navbar-form navbar-left" role="search">
+         <div class="form-group">
+           <input type="text" name="query" class="form-control" placeholder="Search">
+         </div>
+         <button type="submit" class="btn btn-default">Quack</button>
+      </form>
+     </div>
+   </div>
+  </nav>
+  <%= yield %>
+</div>
 </body>
 </html>

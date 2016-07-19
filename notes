@@ -1,0 +1,11 @@
+rails generate model user name:string email:string password:string
+
+db:migrate
+
+db:seed
+
+rails generate controller users
+
+CSS:
+#001040 blue
+#ffd800 yellow

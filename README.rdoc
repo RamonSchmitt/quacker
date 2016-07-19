@@ -1,28 +1,44 @@
-== README
+== Quacker
+Quacker is a 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+== What is working
+    - User can upload photos
+    - User can write and post articles
+    - User can like articles
+    - New users can sign in
 
-* Ruby version
+== Issues
+    - Can't send friend requests
+    - Can't follow users
+    - layout needs improvement
+    - Layout can improve with an html editor for customazing articles
 
-* System dependencies
 
-* Configuration
+
+== Set Up
+
+* Ruby 2.2.5
+
+* Database Postgresql
 
 * Database creation
 
 * Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Heroku deployment
 
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+== Installation
+
+
+   rake db:create
+   rake db:migrate
+   bundle
+   rails s
+   open http://localhost:3000
+
+== Project still work in Progress!
